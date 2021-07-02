@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.main-wrapper {
+    margin: 0 auto;
+    max-width: 1340px;
+    box-sizing: border-box;
+
+}
+
+/* -----------------------------PARAMETRES DU HEADER--------------------------- */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+/**** logo ****/
+
+.logo {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+/**** navigation ****/
+
+.header__top__nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header__top__nav ul {
+    display: flex;
+    flex-direction: row;
+    color: #0065FC;
+
+}
+
+.header__top__nav li {
+    padding-right: 70px;
+    color: #0065FC;
+}
+
+.header__sign {
+    color: #0065FC;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+.header__top{
+    position: relative;
+
+}
+.header__nav__link{
+    padding-top: 30px;
+    text-decoration: none;
+    position: relative;
+}
+.header__nav__link::after{
+    content: "";
+    height: 3px;
+    width: 100px;
+    
+    display: block;
+    position: absolute;
+    top: -21px;
+    left: 0;
+}
+.header__nav__link:hover::after{
+    background-color:#0065FC; 
+}
+
+
+
+
+
+.header__nav__link{
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+
+
+.header__titre {
+    margin-bottom: 16px;
+}
+
+.header__sous-titre {
+    margin-bottom: 19px;
+}
+
+
+
+/**** formulaire ****/
+
+.header__formulaire {
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.header__formulaire__icone {
+    height: 35px;
+    width: 30px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    padding: 3px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.header__formulaire__input {
+    height: 41px;
+    border: 1px solid #F2F2F2;
+    padding: 12px;
+}
+
+.header__formulaire__bouton {
+    height: 41px;
+    margin: -4px;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/**** filtres ****/
+
+
+.header__filtres__item:hover {
+    background-color: #DEEBFF;
+
+    overflow: hidden;
+    position: relative;
+
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.header__filtres {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header__filtres-titre {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+.header__fitres__all {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__filtres__item {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+.header__filtres__item__icone {
+    display: flex;
+    align-items: center;
+    border: 5px solid #DEEBFF;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    margin-left: -5px;
+    padding: 9px;
+}
+
+.header__filtres__item__icone i {
+    color: #0065FC;
+}
+
+.header__filtres__item__mot {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/**** info ****/
+
+.header__info {
+    display: flex;
+}
+
+.header__info-icone {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #DEEBFF;
+    border-radius: 10px;
+    color: #0065FC;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+/* -----------------------------PARAMETRES MAIN--------------------------- */
+
+
+.main a:link
+{ 
+ text-decoration:none; 
+}
+
+
+
+/**** section hebergement ****/
+
+.main__hebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.main__hebergement__euro {
+    font-weight: bold;
+}
+
+/*titre*/
+
+.main__hebergement__article__titre {
+    margin-bottom: 28px;
+}
+
+/* début article */
+
+.main__hebergement__article {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    padding: 47px;
+    width: 880px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.main__hebergement__article__top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+.main__hebergement__article__contenu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+
+.main__hebergement__article__contenu img {
+    height: 115px;
+    width: 240px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.main__hebergement__article__contenu__description {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__hebergement__article__contenu__description__all p {
+    padding: 2px;
+}
+
+/*etoiles notations*/
+
+.main__hebergement__article__contenu__description__etoiles {
+    display: flex;
+    padding-top: 2px;
+}
+
+.main__hebergement__article__contenu__description__etoiles i {
+    height: 5px;
+    width: 5px;
+    padding-right: 18px;
+}
+
+.main__hebergement__article__contenu__description__etoiles-pleines {
+    color: #0065FC; 
+}
+.main__hebergement__article__contenu__description__etoiles-pleines i{
+    color: #0065FC;
+       
+}
+
+.main__hebergement__article__contenu__description__etoiles-vide {
+    color: #F2F2F2;
+    padding-left: 4px;
+}
+
+
+.main__hebergement__article__afficher-plus {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/**** aside ****/
+
+.main__hebergement__aside {
+    margin-top: 5px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    width: 420px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.main__hebergement__aside__titre-icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main__hebergement__aside__all__contenu {
+
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+
+.main__hebergement__aside__all__contenu__description {
+    padding: 10px;
+
+}
+
+.main__hebergement__aside__all__contenu__description__hotel p {
+    display: flex;
+    padding: 5px;
+}
+
+.aside__description {
+    font-size: 19px;
+}
+
+.main__hebergement__aside__all__contenu img {
+    height: 134px;
+    width: 130px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+    
+}
+
+.main__hebergement__aside__all__contenu__description__hotel__etoiles {
+    display: flex;
+    margin-top: 6px;
+   
+    
+
+}
+
+
+/**** section activites ****/
+
+.main__activite__article__titre {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.main__activite__article {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__activite__article__all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+/* contenu 1 */
+
+.main__activite__article__all__contenu__1 {
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.main__activite__article__all__contenu__1 img {
+    height: 390px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.main__activite__article__all__contenu__1__titre {
+    padding: 15px;
+}
+
+/* contenu 2 */
+
+/*top*/
+.main__activite__article__all__contenu__2__top {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 305px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.main__activite__article__all__contenu__2__top img {
+    height: 180px;
+    width: 305px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.main__activite__article__all__contenu__2__top__titre {
+    padding: 15px;
+}
+
+/*bottom*/
+.main__activite__article__all__contenu__2__bottom {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 305px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    cursor: pointer;
+}
+
+.main__activite__article__all__contenu__2__bottom img {
+    height: 110px;
+    width: 305px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.main__activite__article__all__contenu__2__bottom__titre {
+    padding: 15px;
+}
+
+/* contenu 3*/
+
+
+/*top*/
+.main__activite__article__all__contenu__3__top {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 305px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.main__activite__article__all__contenu__3__top img {
+    height: 140px;
+    width: 305px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.main__activite__article__all__contenu__3__top__titre {
+    padding: 15px;
+}
+
+/*bottom*/
+.main__activite__article__all__contenu__3__bottom {
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 305px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    cursor: pointer;
+}
+
+.main__activite__article__all__contenu__3__bottom img {
+    height: 155px;
+    width: 305px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+.main__activite__article__all__contenu__3__bottom__titre {
+    padding: 15px;
+}
+
+
+/* -----------------------------PARAMETRES DU FOOTER--------------------------- */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #F2F2F2;
+    max-width: 1340px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+footer li {
+    padding-top: 10px;
+}
+
+/*a propos*/
+
+.footer__all__titre {
+    padding-bottom: 20px;
+}
+
+a {
+    color: inherit;
+}
