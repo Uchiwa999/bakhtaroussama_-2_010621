@@ -272,10 +272,7 @@
     .main__hebergement__aside__icone i{
         margin-left: -50px;
     }
-    .main__hebergement__aside__all__contenu__description{
-        overflow-y: scroll;
-        padding: -20px;
-    }
+    
     .main__hebergement__aside__all__contenu__description__hotel__etoiles{
         margin-top: -30px;
     }
