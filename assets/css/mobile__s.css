@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 399px) {
+@media screen and (min-width: 320px) and (max-width: 400px) {
 
 
     .main-wrapper {
@@ -207,7 +207,8 @@
 /* HEBERGEMENT */
 
     .main__hebergement__article__top{
-        padding-left: -30px;
+        display: flex;
+        justify-content: center;
     }
 
     .main__hebergement__article{
@@ -236,7 +237,8 @@
     }
     
     .main__hebergement__aside__all__contenu__description__hotel__etoiles{
-        padding-top: 20px;
+        padding-top: 31px;
+        padding-left: 3px;
     }
     .main__hebergement__aside{
         margin-left: -10px;
@@ -274,8 +276,16 @@
         overflow-y: scroll;
         padding: -20px;
     }
-    
-
+    .main__hebergement__aside__all__contenu__description__hotel__etoiles{
+        margin-top: -30px;
+    }
+    .main__hebergement__aside__all__contenu__description__hotel p{
+        font-size: 15px;
+    }
+    .aside__description{
+        height: 71px;
+        width: 116px;
+    }
     
 /* FOOTER */ 
 

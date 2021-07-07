@@ -204,7 +204,8 @@
 /* HEBERGEMENT */
 
     .main__hebergement__article__top{
-        padding-left: 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .main__hebergement__article{
