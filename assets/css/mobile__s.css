@@ -254,6 +254,7 @@
     }
     .main__hebergement__article__contenu{
         box-shadow: 1px 1px 1px 1px #F2F2F2;
+        margin-left: -10px;
     }
 
 
