@@ -252,8 +252,7 @@
     .main__hebergement__article__afficher-plus{
         font-size: 19px;
     }
-    
-    
+  
     
 /* ASIDE */
 
@@ -282,6 +281,9 @@
     .aside__description{
         height: 71px;
         width: 116px;
+    }
+    .main__activite__article__all__contenu__1{
+       margin: 25px;
     }
     
 /* FOOTER */ 
