@@ -216,7 +216,8 @@
         background-color: white;
     }
     .main__hebergement__article__top{
-        background-color: #FBFBFB;
+        background-color: white;
+        
     }
     .main__hebergement__aside{
         order: 1; 
@@ -226,8 +227,7 @@
         width: 320px;
     }
     .main__hebergement__aside__all__contenu{
-        width: 270px;
-        
+        width: 270px;    
     }
     .main__hebergement__aside__all__contenu img{
         height: 135px;
@@ -252,7 +252,9 @@
     .main__hebergement__article__afficher-plus{
         font-size: 19px;
     }
-    
+    .main__hebergement__article__contenu{
+        box-shadow: 1px 1px 1px 1px #F2F2F2;
+    }
 
 
     .main__activite__article__all__contenu__1 {
