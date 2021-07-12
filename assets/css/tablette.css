@@ -258,6 +258,10 @@
     .main__hebergement__article__afficher-plus {
         font-size: 19px;
     }
+    .main__hebergement__article__contenu{
+        box-shadow: 1px 1px 1px 1px #F2F2F2;
+        margin-left: -10px;
+    }
 
 /* ACTIVITES */
     .main__activite__article__all__contenu__1{
