@@ -255,7 +255,24 @@
     
 
 
-   
+    .main__activite__article__all__contenu__1 {
+        height: 195px;
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .main__activite__article__all__contenu__1 img {
+        height: 140px;
+        width: 300px;
+    }
+    .main__activite__article__all__contenu__2{
+        margin: 20px;
+    }
+    .main__activite__article__all__contenu__3{
+        margin: 20px;
+    }
+
+    
     
     
 /* ASIDE */
