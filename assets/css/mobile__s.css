@@ -216,7 +216,8 @@
         background-color: white;
     }
     .main__hebergement__article__top{
-        background-color: #FBFBFB;
+        background-color: white;
+        
     }
     .main__hebergement__aside{
         order: 1; 
@@ -226,8 +227,7 @@
         width: 320px;
     }
     .main__hebergement__aside__all__contenu{
-        width: 270px;
-        
+        width: 270px;    
     }
     .main__hebergement__aside__all__contenu img{
         height: 135px;
@@ -252,7 +252,35 @@
     .main__hebergement__article__afficher-plus{
         font-size: 19px;
     }
+<<<<<<< HEAD
   
+=======
+    .main__hebergement__article__contenu{
+        box-shadow: 1px 1px 1px 1px #F2F2F2;
+        margin-left: -10px;
+    }
+
+
+    .main__activite__article__all__contenu__1 {
+        height: 195px;
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .main__activite__article__all__contenu__1 img {
+        height: 140px;
+        width: 300px;
+    }
+    .main__activite__article__all__contenu__2{
+        margin: 20px;
+    }
+    .main__activite__article__all__contenu__3{
+        margin: 20px;
+    }
+
+    
+    
+>>>>>>> 161c606a8bdf1d1847327c0aa57c1625dfbd047a
     
 /* ASIDE */
 

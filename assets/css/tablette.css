@@ -245,9 +245,7 @@
         padding-top: 20px;
     }
 
-    .main__hebergement__aside {
-        margin-left: -10px;
-    }
+    
 
     .main__hebergement__aside__titre {
         font-size: 18px;
@@ -259,6 +257,10 @@
 
     .main__hebergement__article__afficher-plus {
         font-size: 19px;
+    }
+    .main__hebergement__article__contenu{
+        box-shadow: 1px 1px 1px 1px #F2F2F2;
+        margin-left: -10px;
     }
 
 /* ACTIVITES */
