@@ -92,6 +92,11 @@ body {
     padding-top: 30px;
     text-decoration: none;
     position: relative;
+    color: black;
+}
+
+.header__nav__link:hover{
+    color: #0065FC;
 }
 .header__nav__link::after{
     content: "";
