@@ -98,9 +98,7 @@ body {
 
 
 
-.header__nav__link:hover{
-    color: #0065FC;
-}
+
 .header__nav__link::after{
     content: "";
     height: 3px;
@@ -114,7 +112,9 @@ body {
 .header__nav__link:hover::after{
     background-color:#0065FC; 
 }
-
+.header__nav__link:hover{
+    color: #0065FC;
+}
 
 
 
